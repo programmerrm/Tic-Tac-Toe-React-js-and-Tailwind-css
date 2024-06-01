@@ -6,7 +6,7 @@ function Logo() {
     return (
         <div className="flex flex-col flex-wrap w-full">
             <a className="block w-20 h-20" href={"/"}>
-                <img className="w-full h-full rounded-full" src="/images/programmerwebrm.jpg" alt="programmerwebrm" />
+                <img className="w-full h-full rounded-full" src="/images/programmerwebrm.jpg" alt="programmerwebrm" loading="lazy" decoding="async" />
             </a>
         </div>
     );
